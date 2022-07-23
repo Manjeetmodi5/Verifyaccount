@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <h2>Verifying Your Account</h2>
+    <p>Enter the code below to confirm your verification</p>
+    <div class="code-container">
+        <input type="numbeer" class="code" placeholder="0" min="0" max="9" required />
+        <input type="numbeer" class="code" placeholder="0" min="0" max="9" required />
+        <input type="numbeer" class="code" placeholder="0" min="0" max="9" required />
+        <input type="numbeer" class="code" placeholder="0" min="0" max="9" required />
+        <input type="numbeer" class="code" placeholder="0" min="0" max="9" required />
+        <input type="numbeer" class="code" placeholder="0" min="0" max="9" required />
+    </div>
+    <div>
+        <button type="submit" class="btn" onclick="openPopup()">Verify</button>
+    </div>
+    <div class="popup" id="popup">
+        <img src="Success-PNG-Image.png" width="125px" height="100px">
+        <h2>Thank You!</h2>
+        <p>Your code verified successfully. Thanks!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+
+    </div>
+
+    <small>if you don't recieve the code !! <strong>CLICK HERE</strong></small>
+ </div>
+ 
+   <script src="script.js"></script>
+</body>
+</html>
